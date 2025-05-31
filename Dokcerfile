@@ -1,5 +1,5 @@
 # Use Nginx as a base image
-FROM nginx:alpine
+FROM nginx:latest
 
 # Copy your front-end files to the Nginx html folder
 COPY ./ /usr/share/nginx/html
